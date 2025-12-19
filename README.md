@@ -94,7 +94,7 @@ que o conjunto de dados apresenta qualidade adequada para a realização das
 análises propostas, não sendo necessárias intervenções adicionais de limpeza ou
 correção.
 
-A documentação detalhada da qualidade dos dados encontra-se no Catálogo de Dados: [link](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/docs/data_catalog.md) 
+A documentação detalhada da qualidade dos dados encontra-se no **Catálogo de Dados com evidências**: [ACESSE AQUI](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/docs/data_catalog.md) 
 
 ---
 
@@ -117,7 +117,7 @@ de categorias, que não se encontra normalizado, sendo este um ponto de atençã
 para possíveis evoluções futuras do projeto.
 
 As análises completas, incluindo consultas SQL, gráficos e discussões dos
-resultados, estão disponíveis no notebook executado. ([ACESSE AQUI](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/04_solucao_problema.ipynb)).
+resultados, estão disponíveis no **notebook executado**. ([ACESSE AQUI](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/04_solucao_problema.ipynb)).
 
 E aqui estão alguns exemplos de gráficos obtidos para as análises:
 
