@@ -67,32 +67,51 @@ A modelagem foi documentada detalhadamente no Catálogo de Dados.
 
 ---
 
-## Qualidade dos Dados
+## Análise da Qualidade dos Dados
 
-Foi realizada uma análise de qualidade dos dados nas camadas Silver e Gold,
-avaliando domínios numéricos, completude e integridade referencial.
+Antes da realização das análises analíticas, foi conduzida uma avaliação da
+qualidade dos dados nas camadas Silver e Gold, com foco nos atributos críticos
+para responder às perguntas definidas no objetivo do MVP.
 
-Os dados apresentaram boa qualidade, sem valores nulos em campos críticos e
-com 100% de correspondência entre avaliações e estabelecimentos.
+Foram avaliados aspectos como completude, domínio dos dados numéricos e
+integridade referencial entre as tabelas. As análises indicaram ausência de
+valores nulos em campos identificadores (business_id, review_id) e campos
+temporais, além de domínio adequado para as notas de avaliações, restritas ao
+intervalo esperado entre 1 e 5.
 
-Detalhes da análise encontram-se no Catálogo de Dados.
+Também foi verificada a integridade relacional entre avaliações e
+estabelecimentos, sendo observada correspondência total entre os registros,
+o que indica consistência estrutural dos dados utilizados. Dessa forma, conclui-se
+que o conjunto de dados apresenta qualidade adequada para a realização das
+análises propostas, não sendo necessárias intervenções adicionais de limpeza ou
+correção.
 
-- Catálogo de Dados: [link](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/docs/data_catalog.md) 
+A documentação detalhada da qualidade dos dados encontra-se no Catálogo de Dados: [link](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/docs/data_catalog.md) 
 
 ---
 
-## Análise dos Dados
-As análises foram realizadas utilizando SQL sobre a camada Gold, com apoio de
+## Solução do Problema
+
+Com base nos dados modelados na camada Gold, foram realizadas análises analíticas
+com o objetivo de responder às perguntas definidas na etapa inicial do MVP.
+
+As análises abordaram a distribuição das notas médias dos estabelecimentos, a
+relação entre volume de avaliações e nota média, a identificação das categorias
+mais bem avaliadas e a distribuição das notas individuais atribuídas pelos
+usuários. As consultas foram realizadas utilizando SQL, com apoio de
 visualizações em Python para facilitar a interpretação dos resultados.
 
-Os principais padrões observados incluem:
-- Predominância de avaliações positivas
-- Maior estabilidade de notas médias em estabelecimentos com maior volume de reviews
-- Destaque de categorias ligadas a serviços especializados entre as mais bem avaliadas
+Os resultados indicaram predominância de avaliações positivas, maior estabilidade
+das notas médias em estabelecimentos com maior volume de reviews e destaque de
+categorias relacionadas a serviços especializados entre as mais bem avaliadas.
+Durante as análises, também foram identificadas limitações estruturais no campo
+de categorias, que não se encontra normalizado, sendo este um ponto de atenção
+para possíveis evoluções futuras do projeto.
 
-As análises completas estão disponíveis no notebook `04_analise_dados` ([ACESSE AQUI](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/04_analise_dados.ipynb)).
+As análises completas, incluindo consultas SQL, gráficos e discussões dos
+resultados, estão disponíveis no notebook executado. ([ACESSE AQUI](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/04_analise_dados.ipynb)).
 
-E aqui estão alguns exemplo de gráficos obtidos:
+E aqui estão alguns exemplos de gráficos obtidos para as análises:
 
 Pergunta 1:
 
