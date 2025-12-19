@@ -133,9 +133,13 @@ Em relação à completude, não foram identificados valores nulos nos campos id
 
 Também foi avaliada a integridade referencial entre as tabelas de avaliações e estabelecimentos, tendo sido observada uma correspondência de 100% entre os registros, indicando consistência total entre as entidades.
 
-Os dados utilizados apresentam boa qualidade para a realização das análises propostas, não sendo necessária a aplicação de técnicas adicionais de correção ou imputação.
+Conforme evidenciado no resultado das consultas apresentadas abaixo, os dados utilizados apresentam boa qualidade para a realização das análises propostas, não sendo necessária a aplicação de técnicas adicionais de correção ou imputação.
 
 - Não foram identificados valores nulos em chaves primárias ou estrangeiras.
 - O domínio das notas (`stars` e `review_stars`) está restrito ao intervalo esperado (1 a 5).
 - Houve 100% de correspondência entre avaliações e estabelecimentos no join entre Silver Review e Silver Business.
 
+
+![Qualidade](https://raw.githubusercontent.com/AnaClaraAlmeida/mvp_eng_dados/main/prints/evidencia_qualidade.png)
+
+![Match](https://raw.githubusercontent.com/AnaClaraAlmeida/mvp_eng_dados/main/prints/match.png)
