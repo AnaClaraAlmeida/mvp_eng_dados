@@ -10,8 +10,16 @@ parte do MVP da disciplina de Engenharia de Dados.
 ---
 
 ## Objetivo
-O objetivo deste MVP é construir um pipeline de dados capaz de suportar análises
-sobre avaliações de estabelecimentos, respondendo às seguintes perguntas:
+O objetivo deste MVP é planejar e implementar um pipeline de dados em nuvem,
+capaz de realizar a ingestão, transformação, modelagem e análise de dados de
+avaliações de estabelecimentos, utilizando dados públicos do Yelp Open Dataset.
+
+O pipeline tem como finalidade estruturar os dados de forma adequada para
+análises analíticas, permitindo compreender padrões de avaliação dos usuários,
+relações entre volume de avaliações e notas atribuídas, bem como identificar
+características de estabelecimentos mais bem avaliados.
+
+A partir desse pipeline, busca-se responder às seguintes **perguntas** de negócio que foram definidas previamnete:
 
 1. Qual é a distribuição das notas médias dos estabelecimentos?
 2. Estabelecimentos com maior volume de avaliações tendem a apresentar notas médias diferentes?
