@@ -26,7 +26,7 @@ A partir desse pipeline, busca-se responder às seguintes **perguntas** de negó
 3. Quais categorias de estabelecimentos apresentam as maiores notas médias?
 4. Como se distribuem as notas individuais dadas pelos usuários?
 
-Todas as peguntas foram [respondidas aqui](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/04_analise_dados.ipynb).
+Todas as peguntas foram [respondidas aqui](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/04_solucao_problema.ipynb).
 
 ---
 
@@ -57,7 +57,7 @@ preservando o formato original dos dados.
 
 ## Arquitetura do Pipeline
 
-[Kaggle Dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset/data?select=yelp_academic_dataset_business.json) -> Upload em Volume (Unity Catalog) -> [Bronze (dados brutos)](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/01_ingestao_bronze.ipynb) -> [Silver (flat por conceito)](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/02_transformacao_silver.ipynb) -> [Gold (modelo estrela)](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/03_modelagem_gold.ipynb) -> [Análise de dados](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/04_analise_dados.ipynb)
+[Kaggle Dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset/data?select=yelp_academic_dataset_business.json) -> Upload em Volume (Unity Catalog) -> [Bronze (dados brutos)](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/01_ingestao_bronze.ipynb) -> [Silver (flat por conceito)](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/02_transformacao_silver.ipynb) -> [Gold (modelo estrela)](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/03_modelagem_gold.ipynb) -> [Análise de dados](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/04_solucao_problema.ipynb)
 
 
 ---
@@ -117,7 +117,7 @@ de categorias, que não se encontra normalizado, sendo este um ponto de atençã
 para possíveis evoluções futuras do projeto.
 
 As análises completas, incluindo consultas SQL, gráficos e discussões dos
-resultados, estão disponíveis no notebook executado. ([ACESSE AQUI](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/04_analise_dados.ipynb)).
+resultados, estão disponíveis no notebook executado. ([ACESSE AQUI](https://github.com/AnaClaraAlmeida/mvp_eng_dados/blob/main/notebooks/com_output/04_solucao_problema.ipynb)).
 
 E aqui estão alguns exemplos de gráficos obtidos para as análises:
 
